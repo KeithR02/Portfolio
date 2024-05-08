@@ -1,0 +1,375 @@
+body {
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+}
+
+#Nav-Bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 65, 65);
+    line-height: 60px;
+}
+
+#other-links{
+    display: flex;
+    gap: 20px;
+    background-color: aqua;
+    margin-top: 0px;    
+ 
+    margin-bottom: px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#Main-Link:hover {
+    color: blanchedalmond;
+}
+
+#Main-Link {
+    color: brown;
+    padding-right: 200px;
+    text-decoration: none;
+}
+
+#nav-Links:hover {
+    color: rgb(255, 255, 255);
+}
+
+#nav-Links {
+    text-decoration: none;
+}
+
+
+/*------------------------------------------Main Page------------------------------------------*/
+#placeholder {
+    max-width: 250px;
+}
+
+#MainPageAll {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 80%;
+    justify-content: center;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 0px;
+
+}
+
+#MainProjects {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 70%;
+    justify-content: center;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 60px;
+    padding-top: 130px;
+}
+
+#MainPageHeader {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+#img1 {
+    display: ;
+    margin-right: aut;
+    margin-left: aut;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 5px;
+}
+
+#imgHeader1 {
+text-align: center;
+}
+
+#img2 {
+    display: ;
+    margin-right: aut;
+    margin-left: aut;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 5px;
+}
+
+#imgHeader2 {
+text-align: center;
+}
+
+#img3 {
+    display: ;
+    margin-right: aut;
+    margin-left: aut;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 5px;
+}
+
+#imgHeader3 {
+text-align: center;
+}
+
+/*-------------------------------------------------------Contact Page---------------------------------------------------------------*/
+#ContactAll {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 80%;
+    justify-content: space-between;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 0px;
+
+}
+
+#ContactPageHeader {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+#Contactplaceholder {
+    max-width: 250px;
+}
+
+#ContactImg {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+/*------------------------------------------------------Resume---------------------------------------------------------*/
+#ResumeAll {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 80%;
+    justify-content: center;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 0px;
+
+}
+
+#ResumePageHeader {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+    text-align: center;
+}
+
+#Resumeplaceholder {
+    max-width: 60%;
+}
+
+#ResumeImg {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    max-width: 75%;
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+/*-------------------------------------------------------------About Me---------------------------------------------------------------------*/
+#AboutAll {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 80%;
+    justify-content: space-between;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 0px;
+
+}
+
+#AboutPageHeader {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+#Aboutplaceholder {
+    max-width: 250px;
+}
+
+#AboutImg {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+/*----------------------------------------------------------Projects Page--------------------------------------------------------*/
+#Projectplaceholder {
+    max-width: 250px;
+}
+
+#ProjectPageAll {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 80%;
+    justify-content: center;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 0px;
+
+}
+
+#Projects {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: ;
+    max-width: 70%;
+    justify-content: center;
+    gap: 160px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 60px;
+    padding-top: 130px;
+}
+
+#ProjectPageHeader {
+    display: ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 75%;
+    justify-content: space-between;
+    gap: 15px;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 10px;
+}
+
+#Projectimg1 {
+    display: ;
+    margin-right: aut;
+    margin-left: aut;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 5px;
+}
+
+#ProjectimgHeader1 {
+text-align: center;
+}
+
+#Projectimg2 {
+    display: ;
+    margin-right: aut;
+    margin-left: aut;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 5px;
+}
+
+#ProjectimgHeader2 {
+text-align: center;
+}
+
+#Projectimg3 {
+    display: ;
+    margin-right: aut;
+    margin-left: aut;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    border: 2px solid #ffe100;
+    background-color: #a6d0a1;
+    padding: 5px;
+}
+
+#ProjectimgHeader3 {
+text-align: center;
+}
