@@ -9,7 +9,7 @@ body {
 #Nav-Bar {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65, 0.99);
     line-height: 60px;
     border: 2px solid #666464;
 
@@ -62,9 +62,10 @@ body {
 #MainPageAll {
     justify-content: center;
     border: 2px solid #666464;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65, 0.99);
     margin: 50px;
     border-radius: 20px;
+
 
 }
 
@@ -153,8 +154,9 @@ text-align: center;
     justify-content: space-between;
     gap: 100px;
     border: 2px solid #666464;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65, 0.99);
     margin: 50px;
+    border-radius: 20px;
 
 }
 
@@ -168,6 +170,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
+    border-radius: 20px;
 }
 
 #Contactplaceholder {
@@ -184,14 +187,16 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
+    border-radius: 20px;
 }
 /*----------------------------------------Contact Page-----------------------------------------*/
 /*------------------------------------------------------Resume---------------------------------------------------------*/
 #ResumeAll {
     justify-content: center;
     border: 2px solid #666464;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65, 0.99);
     margin: 50px;
+    border-radius: 20px;
 
 }
 
@@ -207,6 +212,7 @@ text-align: center;
     background-color: rgb(65, 65, 65);
     padding: 5px;
     text-align: center;
+    border-radius: 20px;
 }
 
 #Resumeplaceholder {
@@ -224,6 +230,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 5px;
+    border-radius: 20px;
 }
 /*------------------------------------------------------Resume---------------------------------------------------------*/
 /*-------------------------------------------------------------About Me---------------------------------------------------------------------*/
@@ -233,8 +240,9 @@ text-align: center;
     gap: 100px;
     justify-content: space-between;
     border: 2px solid #666464;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65, 0.99);
     padding: 0px;
+    border-radius: 20px;
 
 }
 
@@ -247,6 +255,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
+    border-radius: 20px;
 }
 
 #Aboutplaceholder {
@@ -262,6 +271,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
+    border-radius: 20px;
 }
 /*-------------------------------------------------------------About Me---------------------------------------------------------------------*/
 /*----------------------------------------------------------Projects Page--------------------------------------------------------*/
@@ -274,7 +284,8 @@ text-align: center;
     margin: 50px;
     justify-content: center;
     border: 2px solid #666464;
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(65, 65, 65, 0.99);
+    border-radius: 20px;
 
 }
 
@@ -289,6 +300,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color:  rgb(65, 65, 65);
     padding: 60px;
+    border-radius: 20px;
 }
 
 #ProjectPageHeader {
@@ -302,6 +314,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
+    border-radius: 20px;
 }
 
 #Projectimg1 {
@@ -309,6 +322,7 @@ text-align: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 5px;
+    border-radius: 20px;
 }
 
 #ProjectimgHeader1 {
