@@ -2,6 +2,8 @@ body {
     background-color: rgb(38, 38, 38);
     margin: 0;
     color: #d7d6d6;
+    background-image: url("../images/tech background.jpg");
+    background-size: cover;
 }
 /*---------------------------------------Navigation Bar----------------------------------------*/
 #Nav-Bar {
@@ -10,6 +12,7 @@ body {
     background-color: rgb(65, 65, 65);
     line-height: 60px;
     border: 2px solid #666464;
+
 }
 
 #other-links{
@@ -57,11 +60,12 @@ body {
 }
 
 #MainPageAll {
-    margin-bottom: 50px;
-    margin-top: 50px;
     justify-content: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
+    margin: 50px;
+    border-radius: 20px;
+
 }
 
 #MainProjects {
@@ -75,6 +79,7 @@ body {
     border: 2px solid #666464;
     background-color:  rgb(65, 65, 65);
     padding: 60px;
+    border-radius: 20px;
 }
 
 #MainPageHeader {
@@ -88,6 +93,7 @@ body {
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
+    border-radius: 20px;
 }
 
 #img1 {
@@ -95,11 +101,13 @@ body {
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 5px;
+    border-radius: 20px;
 }
 
 #imgHeader1 {
 text-align: center;
 border: 2px solid #666464;
+border-radius: 20px;
 }
 
 #img1head {
@@ -142,12 +150,11 @@ text-align: center;
 /*----------------------------------------Contact Page-----------------------------------------*/
 #ContactAll {
     display: flex;
-    margin-bottom: 50px;
-    margin-top: 50px;
     justify-content: space-between;
     gap: 100px;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
+    margin: 50px;
 
 }
 
@@ -181,11 +188,10 @@ text-align: center;
 /*----------------------------------------Contact Page-----------------------------------------*/
 /*------------------------------------------------------Resume---------------------------------------------------------*/
 #ResumeAll {
-    margin-bottom: 50px;
-    margin-top: 50px;
     justify-content: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
+    margin: 50px;
 
 }
 
@@ -223,8 +229,7 @@ text-align: center;
 /*-------------------------------------------------------------About Me---------------------------------------------------------------------*/
 #AboutAll {
     display: flex;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px;
     gap: 100px;
     justify-content: space-between;
     border: 2px solid #666464;
@@ -266,8 +271,7 @@ text-align: center;
 }
 
 #ProjectPageAll {
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin: 50px;
     justify-content: center;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
