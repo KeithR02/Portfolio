@@ -161,6 +161,8 @@ text-align: center;
 }
 
 #ContactPageHeader {
+    display: flex;
+    flex-direction: column;
     margin-left: 20%;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -171,6 +173,34 @@ text-align: center;
     background-color: rgb(65, 65, 65);
     padding: 10px;
     border-radius: 20px;
+}
+
+#iconHeader  {
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    row-gap: 20px;
+}
+
+#iconImg {
+    max-width: 50px;
+}
+
+#iconText {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+#iconImg:hover {
+    max-width: 75px;
+    background-color: blanchedalmond;
+    border-radius: 1000px;
 }
 
 #Contactplaceholder {
@@ -188,6 +218,57 @@ text-align: center;
     background-color: rgb(65, 65, 65);
     padding: 10px;
     border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#formHeading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#nameNemail {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#Subject {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+}
+
+#Comment {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 11px;
+    margin-bottom: 6px;
+}
+
+#yes {
+    align-self: start;
+}
+
+#no {
+    align-self: start;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
 }
 /*----------------------------------------Contact Page-----------------------------------------*/
 /*------------------------------------------------------Resume---------------------------------------------------------*/

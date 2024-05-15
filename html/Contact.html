@@ -24,12 +24,97 @@
         <div id="ContactAll"> 
          
             <div id="ContactPageHeader">
-                <h2>Contact Me</h2>
-                <p>kug jhgil uhiuhsg ouhsiuh uoiho ohoguoh uihuh ulugiugiug iugiu gioug ig igiuigg  iuoiug ig y ky uy fiu fiuy fkfutf </p>
+
+                <div><h2 id="iconHeader">FIND ME ON SOCIAL MEDIA </h2></div>
+
+                <div id="icons">
+                    
+                    <div id="iconText"><a href="https://www.facebook.com/"><img id="iconImg" src="../images/Facebook icon.png"></a>
+                        <div><p>Facebook</p></div>
+                    </div>
+
+                    <div id="iconText"><a href="https://www.google.com/gmail/about/"><img id="iconImg" src="../images/Gmail icon.png"></a>
+                        <div><p>Gmail</p></div>
+                    </div>
+
+                    <div id="iconText"><a href="https://www.instagram.com/"><img id="iconImg" src="../images/Instagram icon.png"></a>
+                        <div><p>Instagram</p></div>
+                    </div>
+
+                    <div id="iconText"><a href="https://www.linkedin.com/in/keith-roberts-1715552b7/"><img id="iconImg" src="../images/Linkedin icon.png"></a>
+                        <div><p>Linkedin</p></div>
+                    </div>
+
+                    <div id="iconText"><a href="https://twitter.com/?lang=en"><img id="iconImg" src="../images/Twitter icon.png"></a>
+                        <div><p>Twitter</p></div>
+                    </div>
+                </div>
             </div>
             
             <div id="ContactImg">
-            <img id="Contactplaceholder" src="..\images\placeholder916.jpg">
+                <h2 id="formHeading">CONTACT ME HERE</h2>
+                <form>
+
+
+
+                    <div id="nameNemail">
+                        <div>
+                            <lable for="Name">Name</lable>
+                        </div>
+
+                        <div>
+                            <input type="text" id="Name" required>
+                        </div>
+                    </div>
+
+                    <div id="nameNemail">
+                        <div>
+                            <lable for="Email">Email</lable>
+                        </div>
+
+                        <div>
+                            <input type="email" id="Email" required>
+                        </div>
+                    </div>
+
+                    <div id="Subject">
+                        <div>
+                            <lable for="Subject">Subject</lable>
+                        </div>
+
+                        <div>
+                            <input type="text" id="Subject" required>
+                        </div>
+                    </div>
+
+                    <div id="Comment">
+                        <div>
+                            <lable for="Comment">Comment</lable>
+                        </div>
+
+                        <div>
+                            <textarea id="Comment" placeholder="Write a comment..." required></textarea>
+                        </div>
+                    </div>
+                    
+                    <fieldset>
+                        <legend>Want to subscribe to receive updates about my website?</legend>
+                        
+                            <div id="radio-yes">
+                                <lable for="yes">Yes</lable>
+                                <input type="radio" id="yes" value="yes" name="newsletter" checked="false">
+                            </div>
+            
+                            <div id="radio-no">
+                                <lable for="no">No</lable>
+                                <input type="radio" id="no" value="no" name="newsletter">
+                            </div>
+                
+                    </fieldset>
+            
+                    <input type="submit" value="submit">
+            
+                </form>
             </div>
     
         </div> 
