@@ -12,7 +12,6 @@ body {
     background-color: rgb(65, 65, 65, 0.99);
     line-height: 60px;
     border: 2px solid #666464;
-
 }
 
 #other-links{
@@ -65,8 +64,6 @@ body {
     background-color: rgb(65, 65, 65, 0.99);
     margin: 50px;
     border-radius: 20px;
-
-
 }
 
 #MainProjects {
@@ -122,31 +119,39 @@ border-radius: 20px;
 }
 
 #MySiteImg {
-    max-width: 400px;
+    max-width: 420px;
+    border-radius: 20px;
 }
-/*(This will be used for my future projects)
+
 #img2 {
     justify-content: space-between;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 5px;
+    border-radius: 20px;
 }
 
 #imgHeader2 {
 text-align: center;
+border: 2px solid #666464;
+border-radius: 20px;
 }
 
-#img3 {
-    justify-content: space-between;
-    border: 2px solid #666464;
-    background-color: rgb(65, 65, 65);
-    padding: 5px;
+#img2head {
+    color: #d7d6d6;
+    text-decoration: none;
 }
 
-#imgHeader3 {
-text-align: center;
+#imgHeader2:hover {
+    color: blanchedalmond;
+    background-color: #666464;
 }
-*/
+
+#pycharm {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
 /*------------------------------------------Main Page------------------------------------------*/
 /*----------------------------------------Contact Page-----------------------------------------*/
 #ContactAll {
@@ -157,7 +162,6 @@ text-align: center;
     background-color: rgb(65, 65, 65, 0.99);
     margin: 50px;
     border-radius: 20px;
-
 }
 
 #ContactPageHeader {
@@ -271,7 +275,7 @@ fieldset {
     margin-bottom: 25px;
 }
 /*----------------------------------------Contact Page-----------------------------------------*/
-/*------------------------------------------------------Resume---------------------------------------------------------*/
+/*-------------------------------------------Resume--------------------------------------------*/
 #ResumeAll {
     justify-content: center;
     border: 2px solid #666464;
@@ -314,22 +318,42 @@ fieldset {
     border-radius: 20px;
 }
 /*------------------------------------------------------Resume---------------------------------------------------------*/
-/*-------------------------------------------------------------About Me---------------------------------------------------------------------*/
+/*------------------------------------------------------About Me-------------------------------------------------------*/
 #AboutAll {
     display: flex;
+    flex-direction: column;
     margin: 50px;
-    gap: 100px;
-    justify-content: space-between;
+    gap: 50px;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65, 0.99);
-    padding: 0px;
     border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+#AboutAll2 {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding-left: 200px;
+}
+
+#youtube {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#youtubeText {
+    margin-right: 40px;
 
 }
 
 #AboutPageHeader {
     margin-right: 20%;
-    margin-bottom: 50px;
     margin-top: 50px;
     max-width: 75%;
     justify-content: space-between;
@@ -339,22 +363,16 @@ fieldset {
     border-radius: 20px;
 }
 
-#Aboutplaceholder {
-    max-width: 250px;
-}
-
-#AboutImg {
+#Mittens {
     margin-left: 20%;
-    margin-bottom: 50px;
     margin-top: 50px;
-    max-width: 75%;
-    justify-content: space-between;
+    max-width: 350px;
     border: 2px solid #666464;
     background-color: rgb(65, 65, 65);
     padding: 10px;
     border-radius: 20px;
 }
-/*-------------------------------------------------------------About Me---------------------------------------------------------------------*/
+/*-------------------------------------------------------------About Me----------------------------------------------------------*/
 /*----------------------------------------------------------Projects Page--------------------------------------------------------*/
 #Projectplaceholder {
     max-width: 250px;
@@ -432,3 +450,162 @@ text-align: center;
 text-align: center;
 }
 /*----------------------------------------------------------Projects Page--------------------------------------------------------*/
+/*----------------------------------------------------------Pycharm Project------------------------------------------------------*/
+
+
+#PycharmPageAll {
+    margin: 50px;
+    justify-content: center;
+    border: 2px solid #666464;
+    background-color: rgb(65, 65, 65, 0.99);
+    border-radius: 20px;
+
+}
+
+#PycharmProject {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;                     /* bottom */
+    max-width: 1000px;
+    border: 2px solid #666464;
+    background-color:  rgb(65, 65, 65);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#PycharmPageHeader {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;                      /*Top*/
+    max-width: 1100px;
+    gap: 15px;
+    border: 2px solid #666464;
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#PycharmLogo {
+    max-width: 250px;
+    color: #000;    
+    padding: 5px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+#headerText {
+    margin-left: 300px;
+}
+
+#headerImg {
+    margin-right: 300px;
+
+}
+
+#PycharmimgHeader1 {
+text-align: center;
+}
+
+#PycharmImgs {
+    max-width: 450px;  
+    padding: 5px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    margin-left: 250px;
+}
+
+#Pycharmimg {
+    padding: 5px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+
+/*----------------------------------------------------------Pycharm Project------------------------------------------------------*/
+/*----------------------------------------------------------Website Project------------------------------------------------------*/
+#WebsitePageAll {
+    margin: 50px;
+    justify-content: center;
+    border: 2px solid #666464;
+    background-color: rgb(65, 65, 65, 0.99);
+    border-radius: 20px;
+
+}
+
+#WebsiteProject {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;                     /* bottom */
+    max-width: 1000px;
+    border: 2px solid #666464;
+    background-color:  rgb(65, 65, 65);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#WebsitePageHeader {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 100px;                      /*Top*/
+    max-width: 1100px;
+    gap: 15px;
+    border: 2px solid #666464;
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#WebsiteLogo {
+    max-width: 250px;
+    color: #000;    
+    padding: 5px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+#WebsiteheaderText {
+    margin-left: 300px;
+}
+
+#WebsiteheaderImg {
+    margin-right: 300px;
+
+}
+
+#WebsiteimgHeader1 {
+text-align: center;
+}
+
+#WebsiteImgs {
+    max-width: 450px;  
+    padding: 5px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    margin-left: 250px;
+}
+
+#Websiteimg {
+    padding: 5px;
+    border: 2px solid #666464;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+/*----------------------------------------------------------Website Project------------------------------------------------------*/
